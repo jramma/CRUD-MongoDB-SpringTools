@@ -42,6 +42,11 @@ public class Fruites {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
+
+	@Override
+	public String toString() {
+		return "Fruita [nombre=" + nombre + "]";
+	}
 	
 	
 	
